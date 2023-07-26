@@ -1,0 +1,217 @@
+.navigasi,
+.navigasi * {
+  box-sizing: border-box;
+}
+.navigasi {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-13 {
+  width: 1440px;
+  height: 88px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 757px;
+  top: 35px;
+  overflow: hidden;
+}
+.home {
+  color: #cecdcd;
+  text-align: left;
+  font: 700 14px/18px "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.about {
+  color: #cecdcd;
+  text-align: left;
+  font: 400 14px/18px "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.guru {
+  color: #cecdcd;
+  text-align: left;
+  font: 400 14px/18px "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.siswa {
+  color: #cecdcd;
+  text-align: left;
+  font: 400 14px/18px "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pendaftaran {
+  color: #cecdcd;
+  text-align: left;
+  font: 400 14px/18px "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lainya {
+  color: #cecdcd;
+  text-align: left;
+  font: 400 14px/18px "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.kontak {
+  color: #cecdcd;
+  text-align: left;
+  font: 400 14px/18px "Open Sans", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  margin: 0;
+  text-decoration: none;
+  color: rgb(143, 143, 143);
+  position: relative;
+  letter-spacing: 1px;
+}
+nav ul li a:hover {
+  color: #ffffff;
+}
+nav ul li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0);
+  transition: .3s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+  left: 0%;
+}
+
+.logocn {
+  width: 50px;
+  height: 53px;
+  position: absolute;
+  left: 165px;
+  top: 17px;
+}
+
+
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  position: absolute;
+  inset: 0;
+}
+.mask-group {
+  width: 1440px;
+  height: 528px;
+  position: static;
+}
+.header-bg {
+  background: var(--accent-default, #3c64b1);
+  width: 1440px;
+  height: 528px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.image-18 {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  width: 1440px;
+  height: 528px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-3 {
+  width: 697px;
+  height: 250px;
+  position: static;
+}
+.motto {
+  color: #ffffff;
+  text-align: left;
+  font: 700 14px/18px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  opacity: 0.6000000238418579;
+  position: absolute;
+  left: 165px;
+  top: 161px;
+}
+.smp-n-1-cibadak-cerdas-beretika-ceria-empati-rasional-damai-aktif-sabar-bersih-elok-tulus-iman-konsiste-amanah {
+  color: var(--whitecolor, #ffffff);
+  text-align: left;
+  font: 700 24px/40px "Open Sans", sans-serif;
+  position: absolute;
+  left: 165px;
+  top: 203px;
+  width: 697px;
+}
+.button {
+  width: 144px;
+  height: 40px;
+  position: static;
+}
+.rectangle-2 {
+  background: #0193dc;
+  border-radius: 4px;
+  width: 144px;
+  height: 40px;
+  position: absolute;
+  left: 165px;
+  top: 371px;
+}
+.label {
+  color: #ffffff;
+  background-color: #0193dc;
+  text-align: center;
+  font: 700 14px/18px "Open Sans", sans-serif;
+  position: absolute;
+  left: 165px;
+  top: 371px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 144px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+}
